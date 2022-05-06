@@ -1,22 +1,56 @@
 img{
-    width: 80%;
+    max-width: 100%;
+    height: auto;
+    padding-left: 40px;
+    margin: auto;
+}
+
+.image2{
+    margin-top: 20px;
 }
 .links{
     
     position: absolute;
     top: 8px;
     right: 12px;
-    padding-right: 320px;
+    padding-right: 300px;
+    padding-left: 20px;
     padding-top: 20px;
     margin: 20px;
     display: block;
+
 }
+.link1{
+    margin-left: 20px;
+    text-decoration: none;
+}
+.link2{
+    margin-left: 20px;
+    text-decoration: none;
+    
+}
+.link3{
+    margin-left: 20px;
+    text-decoration: none;
+}
+
 .h1{
-    color: yellow;
+    color:#FAFF00;
     position: absolute;
     top: 40%;
     left: 30%;
     transform: translate(-50%, -50%);
     display: block;
-    padding-left: 100px;
+    padding-left: 150px;
+    font-size: xx-large;
+}
+.paragraph{
+    color:white;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    display: block;
+    padding-left: 150px;
+    font-size: xx-large;
 }
