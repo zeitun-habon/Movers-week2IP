@@ -1,0 +1,22 @@
+img{
+    width: 80%;
+}
+.links{
+    
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    padding-right: 320px;
+    padding-top: 20px;
+    margin: 20px;
+    display: block;
+}
+.h1{
+    color: yellow;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    display: block;
+    padding-left: 100px;
+}
