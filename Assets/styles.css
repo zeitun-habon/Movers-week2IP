@@ -76,6 +76,7 @@ img{
     font-size: xx-small;
     display: inline-block;
     vertical-align: top;
+    padding-right: 100px;
     
 }
 .container2{
@@ -85,6 +86,7 @@ img{
 }
 .container2 h2{
     position: relative;
+    padding-left:20px;
     padding-bottom: 250px;
     display: block;
 }
@@ -94,4 +96,25 @@ img{
     border-style: groove;
     margin-top: 50px;
     background-color:whitesmoke;
+}
+.container3 img{
+    margin: 150px 20px 20px 20px;
+    margin-left: 10px;
+    border-bottom: 100px;
+    border-style: inset;
+    border-color: white;
+    border-bottom-left-radius: 70px;
+    border-radius: 50px;
+    border: style right inherit; 
+    
+}
+.container3 h2{
+    margin-top: 200px;
+    padding-left: 200px;
+    font-size: xx-large;
+    font-weight: 800;
+    font-style:'Poppins' 'Actor' 'Adamina' ;
+}
+.image-container{
+    
 }
