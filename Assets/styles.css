@@ -5,8 +5,12 @@ img{
     margin: auto;
 }
 
-.image2{
-    margin-top: 20px;
+.container2 img{
+    margin-top: 30px;
+    margin-top:100px;
+    margin-left:5px;
+    display:inline;
+
 }
 .links{
     
@@ -23,15 +27,27 @@ img{
 .link1{
     margin-left: 20px;
     text-decoration: none;
+    color:white;
 }
-.link2{
+.button1{
     margin-left: 20px;
     text-decoration: none;
+    background-color: #FAFF00;
+    color: black;
     
 }
-.link3{
+.button2{
     margin-left: 20px;
     text-decoration: none;
+    color:#FAFF00 ;
+    background-color: black;
+}
+.container2 button{
+    margin-left: 20px;
+    text-decoration: none;
+    color:#FAFF00 ;
+    background-color: black;
+   
 }
 
 .h1{
@@ -44,13 +60,38 @@ img{
     padding-left: 150px;
     font-size: xx-large;
 }
-.paragraph{
-    color:white;
+.paragraph1{
+    color:rgb(255, 255, 255);
     position: absolute;
     top: 60%;
-    left: 30%;
+    left: 25%;
     transform: translate(-50%, -50%);
     display: block;
     padding-left: 150px;
     font-size: xx-large;
+    
+    
+}
+.container2 p{
+    font-size: xx-small;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container2 h2{
+    position: relative;
+    padding-bottom: 250px;
+    display: block;
+}
+.container3{
+    width: auto;
+    height: fit-content;
+    border-style: groove;
+    margin-top: 50px;
+    background-color:whitesmoke;
 }
