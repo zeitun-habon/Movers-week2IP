@@ -379,7 +379,7 @@ span{
     margin-left: -85vh;
     margin-top: 40px;
     border-radius: 25px;
-    background: whitesmoke;
+    background: white;
     box-shadow: 10px 12px 29px #bebebe6c,
         -12px -12px 24px #ffffff;
 }
@@ -399,11 +399,11 @@ span{
 }
 
 .iconborders {
-    width: 132px;
-    height: 50px;
+    width: 130px;
+    height: 20px;
     border: 1px solid rgba(150, 150, 150, 0.295);
     border-bottom-style: none;
-    margin-top: -24px;
+    margin-top: -15px;
 }
 
 .moversiconimg {
@@ -415,18 +415,19 @@ span{
 .numbers {
     width: 10px;
     margin-top: -20px;
-    margin-left: 80px;
+    margin-left: 60px;
     
 }
 
 .description {
     color: black;
     width: 665px;
-    height: 45vh;
+    height: 350px;
     margin-top: 30px;
+    border-bottom: 20px;
     margin-left: -85vh;
     border-radius: 15px;
-    background: #ffffff;
+    background:whitesmoke;
     box-shadow: 10px 12px 29px #bebebe6c,
         -12px -12px 24px #ffffff;
 }
@@ -436,6 +437,7 @@ span{
     padding-top: 30px;
     padding-bottom: 30px;
     font-weight: bold;
+    font-size: small;
     border-bottom: 0.1px solid rgba(128, 128, 128, 0.384);
 
 }
@@ -448,10 +450,10 @@ span{
 
 .features {
     width: 665px;
-    height: 35vh;
+    height: 600px;
     border-radius: 15px;
     margin-left: -85vh;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 120px;
     background: #ffffff;
     box-shadow: 10px 12px 29px #bebebe6c,
