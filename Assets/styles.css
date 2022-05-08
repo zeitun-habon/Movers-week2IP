@@ -399,11 +399,12 @@ span{
 }
 
 .iconborders {
-    width: 130px;
+    width: 100px;
     height: 20px;
-    border: 1px solid rgba(150, 150, 150, 0.295);
+    border: 1px solid grey;
     border-bottom-style: none;
-    margin-top: -15px;
+    margin-top: -30px;
+    border-radius: 2px;
 }
 
 .moversiconimg {
@@ -450,7 +451,7 @@ span{
 
 .features {
     width: 665px;
-    height: 600px;
+    height: 350px;
     border-radius: 15px;
     margin-left: -85vh;
     margin-top: 40px;
@@ -483,6 +484,8 @@ span{
     list-style-type: none;
     margin-left: 30px;
     padding-left: 20px;
+    font-size: x-small;
+    margin: 10px;
 
 }
 
