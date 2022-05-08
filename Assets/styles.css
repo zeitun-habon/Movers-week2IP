@@ -183,3 +183,204 @@ img{
 span{
     color: #ffa600;
 }
+
+/* page2 css */
+.firstsection {
+    background-color: black;
+    height: 150px;
+}
+
+.navbar2 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 650px;
+    margin-top: 50px;
+}
+.moverslinks {
+  margin: 20px;
+  margin-top: 15px;
+
+}
+.moversbutton{
+    width: 10px;
+    height: 3px;
+    padding-left: 10px;
+}
+
+
+.firstsection {
+    background-color: black;
+    height: 140px;
+}
+
+.navbar1 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 650px;
+    margin-bottom: -15px;
+}
+
+
+
+.navbar2 {
+    color: white;
+
+}
+
+.modernhouse {
+    padding-right: 100px;
+    
+
+}
+
+.adress {
+    font-size: x-small;
+    padding-right: 100px;
+    margin-top: -14px;
+}
+
+.price {
+    margin-left: 1300px;
+    margin-top: -35px;
+    font-size: x-large;
+}
+
+.pricetag {
+    margin-left: 1300px;
+    margin-top: -25px;
+    font-size: small;
+}
+
+.propertyimg {
+    width: 660px;
+    padding-top: 40px;
+
+}
+
+.propertyinfo {
+    margin-left: 699px;
+    margin-top: -472px;
+}
+
+.card {
+    width: 300px;
+    height: 460px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+.borderbox {
+    width: 240px;
+    height: 60px;
+    background-color: gray;
+    margin-left: 26px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.profilephoto {
+    width: 35px;
+    height: 32px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.username {
+    margin-left: 60px;
+    margin-top: -32px;
+}
+
+.inputs {
+    width: 240px;
+    height: 45px;
+    margin-left: 25px;
+    margin-top: 15px;
+    border-radius: 08px;
+
+}
+
+.inputsodd {
+    width: 240px;
+    height: 85px;
+    margin-left: 25px;
+    margin-top: 15px;
+    border-radius: 08px;
+
+}
+
+::placeholder {
+    color: black;
+}
+
+.moversbuttonv2 {
+    width: 240px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 15px;
+    color: white;
+    background-color: black;
+}
+
+.housepicsoverall {
+    display: flex;
+    margin-left: -725px;
+
+}
+
+.housepics {
+    width: 75px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.details {
+    width: 81vh;
+    height: 15vh;
+    border: 2px solid green;
+    margin-left: -65vh;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.detailedinfo {
+    margin-left: 20px;
+    font-size: larger;
+    font-weight: bold;
+    border: 2px solid yellow;
+    height: 60px;
+    width: 100%;
+    margin-top: 1px;
+    margin-left: -2px;
+}
+
+.moversicons {
+    display: flex;
+}
+
+.iconborders {
+    width: 132px;
+    height: 50px;
+    border: 2px solid blue;
+    margin-top: -20px;
+}
+
+.description {
+    color: black;
+    background-color:whitesmoke;
+    width: 665px;
+    height: 35vh;
+    margin-top: 30px;
+    margin-left: -540px;
+    border-radius: 10px;
+}
+
+.descriptioncontents {
+    padding-left: 20px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.descriptioncontent1 {
+    padding-left: 20px;
+}
