@@ -80,19 +80,24 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 600px;
-    font-size: larger;
+    padding-left: -600px;
 }
 .container2 h2{
-    padding-top: -600px;
+    padding-top: -300px;
+    padding-left: -200px;
 }
+
+
+ 
+
 .container3{
-    width:fit-content;
+    width: fit-content;
     height: fit-content;
     border-style: groove;
     margin-top: 50px;
     background-color:whitesmoke;
 }
+
 .container3 hr{
     width: 10px;
     height: 5px;
@@ -105,6 +110,8 @@ img{
     
 }
 .container3 img{
+
+    
     margin: 150px 20px 20px 20px;
     margin-left: 10px;
     border-bottom: 100px;
@@ -122,6 +129,8 @@ img{
     font-weight: 800;
     font-style:'Poppins' 'Actor' 'Adamina';
 }
+
+
 .container4{
     width: 97%;
     height:fit-content;
@@ -428,7 +437,7 @@ span{
     border-bottom: 20px;
     margin-left: -85vh;
     border-radius: 15px;
-    background:whitesmoke;
+    background:white;
     box-shadow: 10px 12px 29px #bebebe6c,
         -12px -12px 24px #ffffff;
 }
@@ -594,9 +603,8 @@ span{
 
 h6 {
     padding-left: 90px;
-}
-
-h4 {
+} 
+ h4 {
     font-size: x-large;
     padding-left: 150px;
 }
@@ -619,33 +627,35 @@ h4 {
 }
 
 .whitearrow {
-    width: 22px;
+    width: 30px;
+    background-color: #ffa600;
+}
+.columnhaeding{
+    display: flex;
+    padding-left: 400px;
+    
 }
 
 .moverscolumnheading {
-    display: flex;
-    flex-direction: column;
-    margin-left: 400px;
-    margin-top: -20px;
+   display: grid;
+   margin:5px;
+   text-decoration: none;
+   text-align: center;
+   
 }
 
 .moverscolumnheading1 {
-    display: flex;
-    flex-direction: column;
-    padding-left: -600px;
-    margin-left: 700px;
-    margin-top: -132px;
-    display: flex;
-    flex-direction: column;
-    padding-left: -600px;
-    margin-left: 700px;
-    margin-top: -132px;
+    display: grid;
+    margin:5px;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 600px;
+    padding-top:-400px ;
 }
 
 .moverscolumnheading3 {
-    display: flex;
-    flex-direction: column;
-    padding-left: -600px;
-    margin-left: 1100px;
-    margin-top: -132px;
+    display: grid;
+    margin:5px;
+    text-decoration: none;
+    text-align: center;
 }
