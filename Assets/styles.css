@@ -10,8 +10,11 @@ img{
     margin-top:100px;
     margin-left:5px;
     display:inline;
+    width: 800px;
+    height: 800px;
 
 }
+
 .links{
     
     position: absolute;
@@ -61,7 +64,7 @@ img{
     font-size: xx-large;
 }
 .paragraph1{
-    color:rgb(255, 255, 255);
+    color:grey;
     position: absolute;
     top: 60%;
     left: 25%;
@@ -72,23 +75,16 @@ img{
     
     
 }
-.container2 p{
-    font-size: xx-small;
-    display: inline-block;
-    vertical-align: top;
-    padding-right: 100px;
-    
-}
+
 .container2{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-right: 600px;
+    font-size: larger;
 }
 .container2 h2{
-    position: relative;
-    padding-left:20px;
-    padding-bottom: 250px;
-    display: block;
+    padding-top: -600px;
 }
 .container3{
     width:fit-content;
@@ -96,6 +92,17 @@ img{
     border-style: groove;
     margin-top: 50px;
     background-color:whitesmoke;
+}
+.container3 hr{
+    width: 10px;
+    height: 5px;
+    padding-top: -550px;
+    padding-right: 600px;
+    /* margin-top: 100px; */
+    background-color: orange;
+    border-radius: 6px;
+    
+    
 }
 .container3 img{
     margin: 150px 20px 20px 20px;
@@ -109,7 +116,7 @@ img{
     
 }
 .container3 h2{
-    margin-top: 200px;
+    margin-top: 100px;
     padding-left: 200px;
     font-size: xx-large;
     font-weight: 800;
@@ -185,32 +192,12 @@ span{
 }
 
 /* page2 css */
+
+
+/* first part */
 .firstsection {
     background-color: black;
-    height: 150px;
-}
-
-.navbar2 {
-    display: flex;
-    flex-direction: row;
-    padding-left: 650px;
-    margin-top: 50px;
-}
-.moverslinks {
-  margin: 20px;
-  margin-top: 15px;
-
-}
-.moversbutton{
-    width: 10px;
-    height: 3px;
-    padding-left: 10px;
-}
-
-
-.firstsection {
-    background-color: black;
-    height: 140px;
+    height: 145px;
 }
 
 .navbar1 {
@@ -220,7 +207,17 @@ span{
     margin-bottom: -15px;
 }
 
+.moverslinks {
+    margin-top: 15px;
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+}
 
+.moverslinks:hover {
+    color: #FFAC12;
+
+}
 
 .navbar2 {
     color: white;
@@ -228,25 +225,25 @@ span{
 }
 
 .modernhouse {
-    padding-right: 100px;
-    
+    padding-left: 140px;
+    padding-top: 15px;
 
 }
 
 .adress {
     font-size: x-small;
-    padding-right: 100px;
+    padding-left: 140px;
     margin-top: -14px;
 }
 
 .price {
-    margin-left: 1300px;
+    margin-left: 1279px;
     margin-top: -35px;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .pricetag {
-    margin-left: 1300px;
+    margin-left: 1345px;
     margin-top: -25px;
     font-size: small;
 }
@@ -254,41 +251,57 @@ span{
 .propertyimg {
     width: 660px;
     padding-top: 40px;
+    margin-left: 160px;
 
 }
 
 .propertyinfo {
-    margin-left: 699px;
+    margin-left: 859px;
     margin-top: -472px;
 }
 
 .card {
     width: 300px;
     height: 460px;
-    background-color: aquamarine;
-    border-radius: 10px;
+    border-radius: 18px;
+    background: #ffffff;
+    box-shadow: 10px 12px 29px #bebebe,
+        -12px -12px 24px #ffffff;
+
+}
+
+.profile {
+    padding-top: 10px;
 }
 
 .borderbox {
     width: 240px;
     height: 60px;
-    background-color: gray;
+    background-color: rgba(233, 232, 232, 0.719);
     margin-left: 26px;
     margin-top: 10px;
     border-radius: 10px;
 }
 
 .profilephoto {
-    width: 35px;
-    height: 32px;
+    width: 45px;
+    height: 42px;
     border-radius: 50%;
     margin-left: 10px;
     margin-top: 7px;
 }
 
 .username {
-    margin-left: 60px;
-    margin-top: -32px;
+    margin-left: 68px;
+    margin-top: -37px;
+    font-size: large;
+}
+
+.userprofile {
+    color: #FFAC12;
+    margin-left: 70px;
+    margin-top: -33px;
+    font-size: small;
 }
 
 .inputs {
@@ -310,7 +323,7 @@ span{
 }
 
 ::placeholder {
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .moversbuttonv2 {
@@ -320,11 +333,13 @@ span{
     margin-top: 15px;
     color: white;
     background-color: black;
+    border-radius: 0 12px 0 0;
 }
 
 .housepicsoverall {
     display: flex;
-    margin-left: -725px;
+    margin-left: -720px;
+    margin-top: 15px;
 
 }
 
@@ -334,24 +349,30 @@ span{
     padding-top: 20px;
 }
 
+.housepics:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+}
+
 .details {
     width: 81vh;
     height: 15vh;
-    border: 2px solid green;
-    margin-left: -65vh;
+    margin-left: -85vh;
     margin-top: 40px;
-    border-radius: 10px;
+    border-radius: 25px;
+    background: #ffffff;
+    box-shadow: 10px 12px 29px #bebebe6c,
+        -12px -12px 24px #ffffff;
 }
 
 .detailedinfo {
-    margin-left: 20px;
     font-size: larger;
     font-weight: bold;
-    border: 2px solid yellow;
-    height: 60px;
+    height: 50px;
     width: 100%;
-    margin-top: 1px;
-    margin-left: -2px;
+    padding-top: 29px;
+    margin-left: 25px;
+
 }
 
 .moversicons {
@@ -361,26 +382,245 @@ span{
 .iconborders {
     width: 132px;
     height: 50px;
-    border: 2px solid blue;
-    margin-top: -20px;
+    border: 1px solid rgba(150, 150, 150, 0.295);
+    border-bottom-style: none;
+    margin-top: -24px;
+}
+
+.moversiconimg {
+    width: 30px;
+    padding-left: 35px;
+    padding-top: 9px;
+}
+
+.numbers {
+    width: 10px;
+    margin-top: -25px;
+    margin-left: 80px;
 }
 
 .description {
     color: black;
-    background-color:whitesmoke;
+    width: 665px;
+    height: 45vh;
+    margin-top: 30px;
+    margin-left: -85vh;
+    border-radius: 15px;
+    background: #ffffff;
+    box-shadow: 10px 12px 29px #bebebe6c,
+        -12px -12px 24px #ffffff;
+}
+
+.descriptiontext {
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    border-bottom: 0.1px solid rgba(128, 128, 128, 0.384);
+
+}
+
+.descriptiontext1 {
+    padding-left: 15px;
+    line-height: 1.5;
+    color: #747171;
+}
+
+.features {
     width: 665px;
     height: 35vh;
+    border-radius: 15px;
+    margin-left: -85vh;
     margin-top: 30px;
-    margin-left: -540px;
+    margin-bottom: 120px;
+    background: #ffffff;
+    box-shadow: 10px 12px 29px #bebebe6c,
+        -12px -12px 24px #ffffff;
+}
+
+.featureslist {
+    color: #747171;
+    display: flex;
+    line-height: 2;
     border-radius: 10px;
+    margin-top: -30px;
+    padding-top: 15px;
+    padding-left: 5px;
 }
 
-.descriptioncontents {
-    padding-left: 20px;
+.featurestext {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px;
     font-weight: bold;
-    vertical-align: middle;
+    border-bottom: 0.1px solid rgba(128, 128, 128, 0.384);
+
 }
 
-.descriptioncontent1 {
+.featureslisting {
+    list-style-type: none;
+    margin-left: 30px;
     padding-left: 20px;
+
+}
+
+.check {
+    width: 20px;
+    margin-bottom: -9px;
+    margin-left: -20px;
+}
+
+.linegradient {
+    width: 160px;
+    height: 5px;
+    border-radius: 10px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(30deg, rgb(221, 189, 7) 10%, rgb(29, 21, 1) 100%);
+}
+
+.similarlinegradient {
+    margin-left: -85vh;
+}
+
+.similartext {
+    margin-left: -85vh;
+}
+
+.similarcards {
+    width: 40vh;
+    height: 45vh;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    background: #ffffff;
+    box-shadow: 10px 12px 29px #bebebe6c,
+        -12px -12px 24px #ffffff;
+}
+
+.similarname {
+    margin-bottom: -32px;
+    font-size: large;
+    padding-left: 20px;
+}
+
+.similaricons {
+    display: flex;
+}
+
+.iconbordersforsimilar {
+    width: 132px;
+    height: 50px;
+    border: 1px solid rgba(150, 150, 150, 0.295);
+    border-bottom-style: none;
+    margin-top: 49px;
+}
+
+.similarlistings {
+    display: flex;
+    margin-left: -90vh;
+    margin-top: 19px;
+    overflow: hidden;
+}
+
+.similarimgs {
+    width: 40vh;
+    overflow: hidden;
+
+}
+
+.similarimgsodd {
+    width: 30vh;
+    height: 32vh;
+    overflow: hidden;
+    padding-left: -1px;
+}
+
+.similarcardsodd {
+    width: 30.1vh;
+    height: 45vh;
+    margin-left: 40px;
+    background: #ffffff;
+    box-shadow: 10px 12px 29px #bebebe6c,
+        -12px -12px 24px #ffffff;
+}
+
+/* Footer CSS */
+.moversfooter {
+
+    height: 390px;
+    color: white;
+    margin-left: -104vh;
+    margin-top: 25px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(20deg, rgba(0, 0, 0, 1) 35%, rgba(55, 41, 4, 1) 100%);
+}
+
+.moversbottomborder {
+    border-bottom: 0.1px solid grey;
+    width: 140vh;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.icons {
+    width: 20px;
+    padding-top: 20px;
+}
+
+h6 {
+    padding-left: 90px;
+}
+
+h4 {
+    font-size: x-large;
+    padding-left: 150px;
+}
+
+.footerbutton {
+    margin-left: 143vh;
+    color: black;
+    width: 145px;
+    height: 50px;
+    border: none;
+    background-color: #FFAC12;
+    border-radius: 0 12px 0 0;
+    margin-top: -100px;
+    margin-bottom: -35px;
+}
+
+.footertext {
+    padding-top: 45px;
+    margin-bottom: -25px;
+}
+
+.whitearrow {
+    width: 22px;
+}
+
+.moverscolumnheading {
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    margin-top: -20px;
+}
+
+.moverscolumnheading1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: -600px;
+    margin-left: 700px;
+    margin-top: -132px;
+    display: flex;
+    flex-direction: column;
+    padding-left: -600px;
+    margin-left: 700px;
+    margin-top: -132px;
+}
+
+.moverscolumnheading3 {
+    display: flex;
+    flex-direction: column;
+    padding-left: -600px;
+    margin-left: 1100px;
+    margin-top: -132px;
 }
